@@ -1,0 +1,52 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "username": "",
+            "login": "",
+            "password": "",
+            "profileImageUrl": "",
+            "bioText": "",
+            "adminStatus": false 
+        }
+    ],
+    "cards": [
+        {
+            "id": 1,
+            "name": "",
+            "userId": 1,
+            "colorlessCost": 1,
+            "colorCost1": 1,
+            "colorCost2": 1,
+            "typeLine": "",
+            "abilityText": "",
+            "descriptionText": "",
+            "quoteText": "",
+            "imageUrl": "",
+            "htmlCss": ""
+        }
+    ],
+    "favorites": [
+        {
+            "id": 1,
+            "userId": 1,
+            "cardId": 1
+
+        }
+    ],
+    "binders": [
+        {
+            "id": 1,
+            "userId": 1,
+            "cardId": 1,
+            "placement": 1
+        }
+    ],
+    "manaCosts": [
+        {
+            "id": 1,
+            "icon": "",
+            "description": ""
+        }
+    ]
+}

@@ -1,97 +1,114 @@
 {
-    "users": [
-        {
-            "id": 1,
-            "username": "",
-            "login": "",
-            "password": "",
-            "profileImageUrl": "",
-            "bioText": "",
-            "adminStatus": false 
-        }
-    ],
-    "cards": [
-        {
-            "id": 1,
-            "name": "",
-            "userId": 0,
-            "colorlessCost": 0,
-            "colorCost1": 0,
-            "colorCost2": 0,
-            "typeLine": "",
-            "abilityText": "",
-            "descriptionText": "",
-            "quoteText": "",
-            "imageUrl": "",
-            "htmlCss": ""
-        }
-    ],
-    "favorites": [
-        {
-            "id": 1,
-            "userId": 1,
-            "cardId": 1
-
-        }
-    ],
-    "binders": [
-        {
-            "id": 1,
-            "userId": 1,
-            "cardId": 1,
-            "placement": 1
-        }
-    ],
-    "manaCosts": [
-        {
-            "id": 1,
-            "icon": "<i class='ms ms-1 ms-cost'></i>",
-            "description": "1 Colorless Mana"
-        },
-        {
-            "id": 2,
-            "icon": "<i class='ms ms-2 ms-cost'></i>",
-            "description": "2 Colorless Mana"
-        },
-        {
-            "id": 3,
-            "icon": "<i class='ms ms-3 ms-cost'></i>",
-            "description": "3 Colorless Mana"
-        },
-        {
-            "id": 4,
-            "icon": "<i class='ms ms-4 ms-cost'></i>",
-            "description": "4 Colorless Mana"
-        },
-        {
-            "id": 5,
-            "icon": "<i class='ms ms-5 ms-cost'></i>",
-            "description": "5 Colorless Mana"
-        },
-        {
-            "id": 6,
-            "icon": "<i class='ms ms-w ms-cost'></i>",
-            "description": "White / Plains Mana"
-        },
-        {
-            "id": 8,
-            "icon": "<i class='ms ms-u ms-cost'></i>",
-            "description": "Blue / Island Mana"
-        },
-        {
-            "id": 9,
-            "icon": "<i class='ms ms-b ms-cost'></i>",
-            "description": "Black / Swamp Mana"
-        },
-        {
-            "id": 10,
-            "icon": "<i class='ms ms-r ms-cost'></i>",
-            "description": "Red / Mountain Mana"
-        },
-        {
-            "id": 11,
-            "icon": "<i class='ms ms-g ms-cost'></i>",
-            "description": "Green / Forest Mana"
-        }
-    ]
+  "users": [
+    {
+      "id": 1,
+      "username": "",
+      "login": "",
+      "password": "",
+      "profileImageUrl": "",
+      "bioText": "",
+      "adminStatus": false
+    }
+  ],
+  "cards": [
+    {
+      "id": 1,
+      "name": "",
+      "userId": 0,
+      "colorlessCost": 0,
+      "colorCost1": 0,
+      "colorCost2": 0,
+      "colorCost3": 0,
+      "typeLine": "",
+      "abilityText": "",
+      "descriptionText": "",
+      "quoteText": "",
+      "imageUrl": "",
+      "power": 0,
+      "toughness": 0,
+      "htmlCss": ""
+    },
+    {
+      "name": "Tarshoe the Hairless",
+      "colorlessCost": 1,
+      "colorCost1": 6,
+      "colorCost2": 8,
+      "typeLine": "Creature- Arcane Dog",
+      "abilityText": "Flying",
+      "descriptionText": "Whenever Tarshoe attacks, draw a card.",
+      "quoteText": "Wow, I didn't expect him to be so handsome.",
+      "imageUrl": "https://showsightmagazine.com/wp-content/uploads/2021/05/JudgingTheChineseCrested-1.jpg",
+      "htmlCss": "",
+      "power": 3,
+      "toughness": 2,
+      "id": 2
+    }
+  ],
+  "favorites": [
+    {
+      "id": 1,
+      "userId": 1,
+      "cardId": 1
+    }
+  ],
+  "binders": [
+    {
+      "id": 1,
+      "userId": 1,
+      "cardId": 1,
+      "placement": 1
+    }
+  ],
+  "manaCosts": [
+    {
+      "id": 1,
+      "icon": "<i class='ms ms-1 ms-cost'></i>",
+      "description": "1 Colorless Mana"
+    },
+    {
+      "id": 2,
+      "icon": "<i class='ms ms-2 ms-cost'></i>",
+      "description": "2 Colorless Mana"
+    },
+    {
+      "id": 3,
+      "icon": "<i class='ms ms-3 ms-cost'></i>",
+      "description": "3 Colorless Mana"
+    },
+    {
+      "id": 4,
+      "icon": "<i class='ms ms-4 ms-cost'></i>",
+      "description": "4 Colorless Mana"
+    },
+    {
+      "id": 5,
+      "icon": "<i class='ms ms-5 ms-cost'></i>",
+      "description": "5 Colorless Mana"
+    },
+    {
+      "id": 6,
+      "icon": "<i class='ms ms-w ms-cost'></i>",
+      "description": "White / Plains Mana"
+    },
+    {
+      "id": 7,
+      "icon": "<i class='ms ms-u ms-cost'></i>",
+      "description": "Blue / Island Mana"
+    },
+    {
+      "id": 8,
+      "icon": "<i class='ms ms-b ms-cost'></i>",
+      "description": "Black / Swamp Mana"
+    },
+    {
+      "id": 9,
+      "icon": "<i class='ms ms-r ms-cost'></i>",
+      "description": "Red / Mountain Mana"
+    },
+    {
+      "id": 10,
+      "icon": "<i class='ms ms-g ms-cost'></i>",
+      "description": "Green / Forest Mana"
+    }
+  ]
 }

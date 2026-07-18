@@ -3,7 +3,7 @@
     {
       "id": 1,
       "username": "MustardMike",
-      "login": "michaelmustard@test.com",
+      "email": "michaelmustard@test.com",
       "password": "Mustardtime!",
       "profileImageUrl": "",
       "bioText": "You're a buster if you don't like mustard.",
@@ -12,7 +12,7 @@
     {
       "id": 2,
       "username": "RichStanley",
-      "login": "richstan@test.com",
+      "email": "richstan@test.com",
       "password": "cashinHand$",
       "profileImageUrl": "",
       "bioText": "I have a lot of money.",
@@ -21,7 +21,7 @@
     {
       "id": 3,
       "username": "ResponsibleRichard",
-      "login": "responsible@test.com",
+      "email": "responsible@test.com",
       "password": "mrAdmin",
       "profileImageUrl": "",
       "bioText": "I take my job here very seriously.",

@@ -2,46 +2,84 @@
   "users": [
     {
       "id": 1,
-      "username": "",
-      "login": "",
-      "password": "",
+      "username": "MustardMike",
+      "login": "michaelmustard@test.com",
+      "password": "Mustardtime!",
       "profileImageUrl": "",
-      "bioText": "",
+      "bioText": "You're a buster if you don't like mustard.",
       "adminStatus": false
+    },
+    {
+      "id": 2,
+      "username": "RichStanley",
+      "login": "richstan@test.com",
+      "password": "cashinHand$",
+      "profileImageUrl": "",
+      "bioText": "I have a lot of money.",
+      "adminStatus": false
+    },
+    {
+      "id": 3,
+      "username": "ResponsibleRichard",
+      "login": "responsible@test.com",
+      "password": "mrAdmin",
+      "profileImageUrl": "",
+      "bioText": "I take my job here very seriously.",
+      "adminStatus": true
     }
+
   ],
   "cards": [
     {
       "id": 1,
-      "name": "",
-      "userId": 0,
-      "colorlessCost": 0,
-      "colorCost1": 0,
-      "colorCost2": 0,
+      "name": "Helper",
+      "userId": 1,
+      "colorlessCost": 1,
+      "colorCost1": 8,
+      "colorCost2": 7,
       "colorCost3": 0,
-      "typeLine": "",
-      "abilityText": "",
-      "descriptionText": "",
-      "quoteText": "",
+      "typeLine": "Wow",
+      "abilityText": "Okay",
+      "descriptionText": "Oops",
+      "quoteText": "Huh",
       "imageUrl": "",
-      "power": 0,
-      "toughness": 0,
+      "power": 2,
+      "toughness": 2,
       "htmlCss": ""
     },
     {
-      "name": "Tarshoe the Hairless",
-      "colorlessCost": 1,
-      "colorCost1": 6,
+      "name": "Harshoe the Hairless",
+      "userId": 2,
+      "colorlessCost": 2,
+      "colorCost1": 7,
       "colorCost2": 8,
+      "colorCost3": 10,
       "typeLine": "Creature- Arcane Dog",
       "abilityText": "Flying",
-      "descriptionText": "Whenever Tarshoe attacks, draw a card.",
+      "descriptionText": "Whenever Harshoe attacks, draw a card.",
       "quoteText": "Wow, I didn't expect him to be so handsome.",
       "imageUrl": "https://showsightmagazine.com/wp-content/uploads/2021/05/JudgingTheChineseCrested-1.jpg",
       "htmlCss": "",
-      "power": 3,
-      "toughness": 2,
+      "power": "2",
+      "toughness": "3",
       "id": 2
+    },
+    {
+      "name": "Crimbob",
+      "userId": 3,
+      "colorlessCost": 2,
+      "colorCost1": 7,
+      "colorCost2": 6,
+      "colorCost3": 9,
+      "typeLine": "Creacher",
+      "abilityText": "Slob",
+      "descriptionText": "Whenever Crimbob attacks, draw a card.",
+      "quoteText": "Wow, I didn't expect him to be so Crim.",
+      "imageUrl": "https://behindthefencegallery.com/images/categories/fiberglassgoblinstatue_140065h.jpg",
+      "htmlCss": "",
+      "power": "1",
+      "toughness": "1",
+      "id": 3
     }
   ],
   "favorites": [
@@ -62,52 +100,52 @@
   "manaCosts": [
     {
       "id": 1,
-      "icon": "<i class='ms ms-1 ms-cost'></i>",
+      "icon": "ms ms-1 ms-cost",
       "description": "1 Colorless Mana"
     },
     {
       "id": 2,
-      "icon": "<i class='ms ms-2 ms-cost'></i>",
+      "icon": "ms ms-2 ms-cost",
       "description": "2 Colorless Mana"
     },
     {
       "id": 3,
-      "icon": "<i class='ms ms-3 ms-cost'></i>",
+      "icon": "ms ms-3 ms-cost",
       "description": "3 Colorless Mana"
     },
     {
       "id": 4,
-      "icon": "<i class='ms ms-4 ms-cost'></i>",
+      "icon": "ms ms-4 ms-cost",
       "description": "4 Colorless Mana"
     },
     {
       "id": 5,
-      "icon": "<i class='ms ms-5 ms-cost'></i>",
+      "icon": "ms ms-5 ms-cost",
       "description": "5 Colorless Mana"
     },
     {
       "id": 6,
-      "icon": "<i class='ms ms-w ms-cost'></i>",
+      "icon": "ms ms-w ms-cost",
       "description": "White / Plains Mana"
     },
     {
       "id": 7,
-      "icon": "<i class='ms ms-u ms-cost'></i>",
+      "icon": "ms ms-u ms-cost",
       "description": "Blue / Island Mana"
     },
     {
       "id": 8,
-      "icon": "<i class='ms ms-b ms-cost'></i>",
+      "icon": "ms ms-b ms-cost",
       "description": "Black / Swamp Mana"
     },
     {
       "id": 9,
-      "icon": "<i class='ms ms-r ms-cost'></i>",
+      "icon": "ms ms-r ms-cost",
       "description": "Red / Mountain Mana"
     },
     {
       "id": 10,
-      "icon": "<i class='ms ms-g ms-cost'></i>",
+      "icon": "ms ms-g ms-cost",
       "description": "Green / Forest Mana"
     }
   ]

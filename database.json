@@ -116,7 +116,7 @@
   },
   {
     "name": "Thistlebound Oracle",
-    "userId": 1,
+    "userId": 2,
     "colorlessCost": 1,
     "colorCost1": 10,
     "colorCost2": 0,
@@ -374,7 +374,32 @@
     {
       "id": 1,
       "userId": 1,
-      "cardId": 1
+      "cardId": 13
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "cardId": 17
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "cardId": 4
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "cardId": 6
+    },
+    {
+      "id": 5,
+      "userId": 1,
+      "cardId": 2
+    },
+    {
+      "id": 6,
+      "userId": 1,
+      "cardId": 10
     }
   ],
   "binders": [

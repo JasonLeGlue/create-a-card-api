@@ -5,7 +5,7 @@
       "username": "MustardMike",
       "email": "michaelmustard@test.com",
       "password": "Mustardtime!",
-      "profileImageUrl": "",
+      "profileImageUrl": "https://picture.drhauschka.de/dprj6oup9/image/private/s--RUCFfMN0--/c_fill,g_auto,h_390,w_390/f_auto/q_auto/media/43/9c/20/1751621077/brassica-nigra-l?_a=BAAAV6H8",
       "bioText": "You're a buster if you don't like mustard.",
       "adminStatus": false
     },
@@ -14,7 +14,7 @@
       "username": "RichStanley",
       "email": "richstan@test.com",
       "password": "cashinHand$",
-      "profileImageUrl": "",
+      "profileImageUrl": "https://www.remindmagazine.com/wp-content/uploads/2025/02/Richie-Rich-1994-1014x570.jpg",
       "bioText": "I have a lot of money.",
       "adminStatus": false
     },
@@ -23,7 +23,7 @@
       "username": "ResponsibleRichard",
       "email": "responsible@test.com",
       "password": "mrAdmin",
-      "profileImageUrl": "",
+      "profileImageUrl": "https://everydaypower.com/wp-content/uploads/2019/02/7-Good-Reasons-to-Be-a-Responsible-Person.jpg",
       "bioText": "I take my job here very seriously.",
       "adminStatus": true
     }
@@ -398,8 +398,46 @@
     },
     {
       "id": 6,
-      "userId": 1,
-      "cardId": 10
+      "userId": 2,
+      "cardId": 1
+    },
+    {
+      "id": 7,
+      "userId": 2,
+      "cardId": 11
+    },
+    {
+      "id": 8,
+      "userId": 2,
+      "cardId": 8
+    },
+    {
+      "id": 9,
+      "userId": 2,
+      "cardId": 14
+    },
+    {
+      "id": 10,
+      "userId": 2,
+      "cardId": 17
+    },
+    {
+      "id": 11,
+      "userId": 3,
+      "cardId": 2
+    },
+    {
+      "id": 12,
+      "userId": 3,
+      "cardId": 6
+    },{
+      "id": 13,
+      "userId": 3,
+      "cardId": 7
+    },{
+      "id": 14,
+      "userId": 3,
+      "cardId": 15
     }
   ],
   "binders": [
@@ -407,6 +445,46 @@
       "id": 1,
       "userId": 1,
       "cardId": 1
+    }, 
+    {
+      "id": 2,
+      "userId": 1,
+      "cardId": 12
+    },
+    {
+      "id": 3,
+      "userId": 2,
+      "cardId": 4
+    },
+    {
+      "id": 4,
+      "userId": 2,
+      "cardId": 6
+    },
+    {
+      "id": 5,
+      "userId": 2,
+      "cardId": 10
+    },
+    {
+      "id": 6,
+      "userId": 2,
+      "cardId": 13
+    },
+    {
+      "id": 7,
+      "userId": 3,
+      "cardId": 14
+    },
+    {
+      "id": 8,
+      "userId": 3,
+      "cardId": 17
+    },
+    {
+      "id": 9,
+      "userId": 3,
+      "cardId": 20
     }
   ],
   "manaCosts": [

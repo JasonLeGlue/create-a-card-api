@@ -90,23 +90,6 @@
       "id": 4
     },
     {
-      "name": "Cracked Reservoir Golem",
-      "userId": 3,
-      "colorlessCost": 3,
-      "colorCost1": 7,
-      "colorCost2": 0,
-      "colorCost3": 0,
-      "typeLine": "Artifact Creature - Golem",
-      "abilityText": "Defender",
-      "descriptionText": "{T}: Add one blue mana.",
-      "quoteText": "Even broken things hold water for a while.",
-      "imageUrl": "https://files.d20.io/images/424593686/7pgdn1Q84g9b4oAfUnrpCQ/original.png",
-      "htmlCss": "",
-      "power": "0",
-      "toughness": "6",
-      "id": 5
-    },
-    {
       "name": "Thistlebound Oracle",
       "userId": 2,
       "colorlessCost": 1,
@@ -141,10 +124,10 @@
       "id": 7
     },
     {
-      "name": "Wraithcall Deacon",
+      "name": "Wraithcall Deacon Dwarf",
       "userId": 3,
-      "colorlessCost": 2,
-      "colorCost1": 8,
+      "colorlessCost": 5,
+      "colorCost1": 7,
       "colorCost2": 8,
       "colorCost3": 0,
       "typeLine": "Creature - Human Cleric",
@@ -153,8 +136,8 @@
       "quoteText": "Speak softly, and the dead will listen closer.",
       "imageUrl": "https://assetsio.gnwcdn.com/dnd-cleric-images-7.jpg?width=1200&height=1200&fit=crop&quality=100&format=png&enable=upscale&auto=webp",
       "htmlCss": "",
-      "power": "2",
-      "toughness": "2",
+      "power": "4",
+      "toughness": "4",
       "id": 8
     },
     {
@@ -228,9 +211,9 @@
     {
       "name": "Rootbind Colossus",
       "userId": 3,
-      "colorlessCost": 5,
-      "colorCost1": 10,
-      "colorCost2": 10,
+      "colorlessCost": 1,
+      "colorCost1": 9,
+      "colorCost2": 9,
       "colorCost3": 0,
       "typeLine": "Creature - Elemental",
       "abilityText": "Trample",
@@ -326,6 +309,23 @@
       "power": "3",
       "toughness": "3",
       "id": 20
+    },
+    {
+      "name": "Allen Singley",
+      "colorlessCost": "5",
+      "colorCost1": "6",
+      "colorCost2": "8",
+      "colorCost3": "9",
+      "typeLine": "Creature - Man",
+      "abilityText": "Lifesteal",
+      "descriptionText": "You better watch out.",
+      "quoteText": "\"You better not cry.\"",
+      "imageUrl": "https://thumbs.dreamstime.com/b/secret-agent-santa-24650014.jpg",
+      "htmlCss": "",
+      "power": "10",
+      "toughness": "8",
+      "userId": 1,
+      "id": 21
     }
   ],
   "favorites": [
@@ -398,6 +398,11 @@
       "userId": 1,
       "cardId": 20,
       "id": 16
+    },
+    {
+      "userId": 1,
+      "cardId": 8,
+      "id": 17
     }
   ],
   "binders": [
